@@ -1,0 +1,19 @@
+{
+	"name": "Youtube Theater Mode",
+	"version": "0.9",
+	"description": "Youtube Theater Mode - an extension created with BabelExt - www.babelext.com",
+	"update_url": "http://babelext.com/update-chrome.php",
+	"background_page": "background.html",
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": ["BabelExt.js", "extension.js"] // add others here if you like, i.e. jquery...
+		}
+	],
+	"icons": {
+		// "48": "icon48.png",
+		// "128": "icon128.png" 
+	}
+}

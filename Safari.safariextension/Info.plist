@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Steve Sobel</string>
+	<key>Builder Version</key>
+	<string>534.55.3</string>
+	<key>CFBundleDisplayName</key>
+	<string>Youtube Theater Mode</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.honestbleeps.youtubetheatermode</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.9</string>
+	<key>CFBundleVersion</key>
+	<string>0.9</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>10485760</real>
+		<key>Global Page</key>
+		<string>background.html</string>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>notification.html</string>
+				<key>Identifier</key>
+				<string>notification</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>extension.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>BabelExt.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Youtube Theater Mode - converts youtube links to "theater mode" - this extension created with BabelExt - www.babelext.com</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://github.com/honestbleeps/YoutubeTheaterMode</string>
+</dict>
+</plist>

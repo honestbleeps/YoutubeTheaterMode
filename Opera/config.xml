@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" version="0.9" id="extensions:CHANGE_THIS_TO_SOMETHING_UNIQUE">
+	<name>Youtube Theater Mode</name>
+	<description>Youtube Theater Mode - converts youtube links to "theater mode" - this extension created with BabelExt - www.babelext.com</description>
+  <author href="http://babelext.com/">Steve Sobel</author>
+  <icon src="logo.gif" />
+</widget>
