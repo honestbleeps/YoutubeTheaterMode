@@ -1,4 +1,4 @@
-chrome.extension.onRequest.addListener(
+chrome.runtime.onMessage.addListener(
 	function(request, sender, sendResponse) {
 		// all requests expect a JSON object with requestType and then the relevant
 		// companion information...
@@ -19,6 +19,7 @@ chrome.extension.onRequest.addListener(
 				xhr.send(request.data);
 				break;
 			case 'createTab':
+				console.log('wat');
 				var focus = (request.background != true);
 				if (typeof(request.index) != 'undefined') {
 					var newIndex = request.index;
